@@ -22,7 +22,7 @@ app = FastAPI()
 # just get the link request 
 @app.get("/")
 def root():
-    return {"message": "Welcome to my api!!!!"}
+    return {"message": "Welcome to my first api that I have developed by my own!!!!"}
 
 
 # get the posts from database
